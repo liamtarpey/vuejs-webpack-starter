@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "globals": {},
+  "rules": {
+    "indent": ["error", 4, { "SwitchCase": 1 }],
+    "max-len": ["error", 150],
+    "no-param-reassign": ["error", { "props": false }],
+    "func-names": ["error", "never"],
+    "padded-blocks": "off",
+    "vars-on-top": "off",
+    "consistent-return": "off",
+    "no-unneeded-ternary": "off",
+    "space-before-function-paren": ["error", "never"]
+  }
+}

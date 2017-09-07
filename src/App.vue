@@ -9,7 +9,7 @@
 
     const App = {
         components: {
-            Test: Test
+             Test: Test
         }
     };
 
